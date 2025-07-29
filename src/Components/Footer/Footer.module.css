@@ -1,0 +1,27 @@
+.bgColor {
+  background-color: var(--secondary-color);
+}
+.bgColor2 {
+  background-color: #1a252f;
+}
+
+.iconRing {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  border: 0.0625rem solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.iconRing i {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.iconRing:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.tColor {
+  color: var(--secondary-color);
+}
+
+.marginHeading {
+  margin-top: 5rem;
+}
+
+.portfolioOverlay {
+  background-color: rgba(26, 188, 156, 0.8);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.position:hover .portfolioOverlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.faPlus {
+  font-size: 8rem;
+}

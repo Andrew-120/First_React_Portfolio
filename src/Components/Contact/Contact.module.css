@@ -1,0 +1,7 @@
+.tColor {
+    color: var(--secondary-color);
+}
+
+.btnColor {
+    background-color: var(--main-color);
+}

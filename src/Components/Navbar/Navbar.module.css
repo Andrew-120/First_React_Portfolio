@@ -1,0 +1,8 @@
+.bgColor {
+    background-color: var(--secondary-color);
+}
+
+.hamada {
+    border-radius: 0.5rem !important;
+    background-color: var(--main-color) !important;
+}
